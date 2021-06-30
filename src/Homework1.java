@@ -30,7 +30,7 @@ public class Homework1 {
             }
             long stopTime = System.nanoTime();
             double timePerReading = (double) (stopTime - startTime) / INSERTS_PER_READING;
-            System.out.printf("%10d", array.length);
+            System.out.printf("%d %f", array.length, timePerReading/1_000_000_000);
             System.out.println();
         }
     }
