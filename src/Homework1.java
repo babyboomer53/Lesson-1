@@ -8,6 +8,8 @@ public class Homework1 {
      * third argument has been inserted at the location indicated by the second
      * argument.
      *
+     * This function runs in O(n) time.
+     *
      * @param array A container of type Array
      * @param index An integer (int) representing the insertion point
      * @param value An integer (int) containing the value to insert
