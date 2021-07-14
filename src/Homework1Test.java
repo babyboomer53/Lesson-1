@@ -11,6 +11,7 @@ public class Homework1Test {
         int[] secondArray = {1, 2, 3, 4, 6, 7, 8, 9};
         int[] result = Homework1.insert(secondArray, 4, 5);
         assertTrue(Arrays.equals(firstArray, result));
+        assertEquals(result.length,9);
     }
 
     @Test(expectedExceptions = IndexOutOfBoundsException.class)
