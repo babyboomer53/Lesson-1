@@ -41,7 +41,7 @@ public class Homework1Test {
 }
 ```
 ### Test Results
-
+![](test-results.png)
 ### Main
 ```java
 import java.security.SecureRandom;
@@ -169,3 +169,29 @@ Array Length  Seconds per Insert
 Process finished with exit code 0
 ```
 ## Scatter Plot
+![](scatter-plot.png)
+## Summary
+Wow! As stated in the introduction, the purpose of this exercise was to determine how much longer it would take the
+insert algorithm to add an element to an array as the array grew in size. My expectation was that the insertion would
+take longer as the size of the array increased. The evidence doesn't seem to support that. My preliminary assessment was
+that the insert method would run in O(n) time. That assessment was based primarily on the fact that the method 
+implementing the algorithm contained a couple of loops. Much to my surprise, the evidence doesn't seem to support my
+hypothesis. Quite the contrary.
+
+In my initial attempt at this exercise, I did not produce a scatter-plot graph. Consequently, I had only the console
+output on which to evaluate its performance. I noticed that the length of time the insert method was running did not
+vary. Since that seemed counterintuitive, I attributed the results to a flaw in the program, and spent many hours
+scouring the code for the bug.
+
+Eventually I became suspicious. Perhaps the program was producing legitimate results. Had our instructor (who shall
+remain nameless) pulled a fast one on us?! It wasn't until I plotted the results on a graph that I became convinced.
+This thing ain't broke! I'm guessing it was my thought process that was flawed. The evidence would suggest that this
+thing doesn't run in O(n)! It's more like O(log n) or better!
+
+The scatter graph was an optional element of this assignment, but without it I might never have been enlightened. The
+insertion time was growing relative to the array, but had an almost imperceptible rate. I needed a graphical
+representation of the dated before I could see it.
+
+This was an interesting project. Regardless of how hard I might toil (and complain), I'm always delighted when I learn
+something I wasn't expecting.
+
