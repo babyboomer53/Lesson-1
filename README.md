@@ -189,8 +189,8 @@ This thing ain't broke! I'm guessing it was my thought process that was flawed. 
 thing doesn't run in O(n)! It's more like O(log n) or better!
 
 The scatter graph was an optional element of this assignment, but without it I might never have been enlightened. The
-insertion time was growing relative to the array, but had an almost imperceptible rate. I needed a graphical
-representation of the dated before I could see it.
+insertion time was growing relative to the array, but at an almost imperceptible rate. I needed a graphical
+representation of the data before I could see it.
 
 This was an interesting project. Regardless of how hard I might toil (and complain), I'm always delighted when I learn
 something I wasn't expecting.
