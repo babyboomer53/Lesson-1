@@ -102,7 +102,6 @@ public class Homework1 {
 ```
 ## Output
 ```text
-"C:\Program Files\Java\jdk-14\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar=57019:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\out\production\Lesson-1;C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\lib\testng-7.1.0.jar;C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\lib\jcommander-1.72.jar;C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\lib\guice-4.1.0-no_aop.jar;C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\lib\javax.inject-1.jar;C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\lib\aopalliance-1.0.jar;C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\lib\guava-19.0.jar;C:\Users\Champ\IdeaProjects\Data Structures and algorithms\Lesson-1\lib\snakeyaml-1.21.jar" Homework1
 Array Length  Seconds per Insert
 
         1001         0.00032852
