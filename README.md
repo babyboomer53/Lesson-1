@@ -173,7 +173,7 @@ Process finished with exit code 0
 ## Summary
 Wow! As stated in the introduction, the purpose of this exercise was to determine how much longer it would take the
 insert algorithm to add an element to an array as the array grew in size. My expectation was that the insertion would
-take longer as the size of the array increased. The evidence doesn't seem to support that. My preliminary assessment was
+take longer as the size of the array increased. The evidence didn't seem to support that. My preliminary assessment was
 that the insert method would run in O(n) time. That assessment was based primarily on the fact that the method 
 implementing the algorithm contained a couple of loops. Much to my surprise, the evidence doesn't seem to support my
 hypothesis. Quite the contrary.
